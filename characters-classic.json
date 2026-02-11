@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "version": "2.0"
+  },
+  "regionContent": [
+    {
+      "elementType": "list",
+      "listStyle": "grouped",
+      "showAccessoryIcons": false,
+      "items": [
+        { "title": "Mickey Mouse" },
+        { "title": "Minnie Mouse" },
+        { "title": "Donald Duck" },
+        { "title": "Goofy" },
+        { "title": "Pluto" }
+      ]
+    }
+  ]
+}
