@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "version": "2.0"
+  },
+  "regionContent": [
+    {
+      "elementType": "list",
+      "listStyle": "grouped",
+      "showAccessoryIcons": false,
+      "items": [
+        { "title": "Maleficent" },
+        { "title": "Scar" },
+        { "title": "Ursula" },
+        { "title": "Jafar" },
+        { "title": "Cruella de Vil" }
+      ]
+    }
+  ]
+}
