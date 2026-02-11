@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "version": "2.0"
+  },
+  "regionContent": [
+    {
+      "elementType": "list",
+      "listStyle": "grouped",
+      "showAccessoryIcons": false,
+      "items": [
+        { "title": "Woody" },
+        { "title": "Buzz Lightyear" },
+        { "title": "Nemo" },
+        { "title": "Dory" },
+        { "title": "Lightning McQueen" }
+      ]
+    }
+  ]
+}
