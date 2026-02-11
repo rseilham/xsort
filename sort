@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "pageTitle": "Disney Character Filter POC"
+  },
+  "contentContainerWidth": "narrow",
+  "content": [
+    {
+      "elementType": "blockHeading",
+      "heading": "Disney Characters",
+      "headingLevel": 1
+    },
+    {
+      "elementType": "buttonContainer",
+      "buttons": [
+        {
+          "elementType": "linkButton",
+          "title": "Classic",
+          "events": [
+            {
+              "eventName": "click",
+              "action": "ajaxUpdate",
+              "targetId": "character_container",
+              "region": "content",
+              "ajaxRelativePath": "./characters-classic.json",
+              "loadingIndicator": true
+            }
+          ]
+        },
+        {
+          "elementType": "linkButton",
+          "title": "Pixar",
+          "events": [
+            {
+              "eventName": "click",
+              "action": "ajaxUpdate",
+              "targetId": "character_container",
+              "region": "content",
+              "ajaxRelativePath": "./characters-pixar.json",
+              "loadingIndicator": true
+            }
+          ]
+        },
+        {
+          "elementType": "linkButton",
+          "title": "Villains",
+          "events": [
+            {
+              "eventName": "click",
+              "action": "ajaxUpdate",
+              "targetId": "character_container",
+              "region": "content",
+              "ajaxRelativePath": "./characters-villains.json",
+              "loadingIndicator": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elementType": "container",
+      "id": "character_container",
+      "marginTop": "medium",
+      "content": [
+        {
+          "elementType": "html",
+          "html": "<p>Select a category above.</p>"
+        }
+      ]
+    }
+  ]
+}
